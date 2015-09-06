@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Blah</title>
+    <style type="text/css">
+        body {
+            background-color : white;
+            font-family : Arial;
+            font-size : 16px;
+        }
+        .wrap {
+            background: transparent url(px.png) repeat-x 0px 85%;
+            /* Different fonts or text sizes may require tweaking of that offset.
+               px.png is a one-pixel(though can be thicker if needed) image in whatever color you want the line */
+        }
+        .inner {
+            background-color : white;
+            /* Should match the background of whatever it's sitting over.
+               Obviously this requires a solid background. */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap"><span class="inner">Here is some text</span></div>
+</body>
+</html>
